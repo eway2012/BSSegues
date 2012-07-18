@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2V7-IM-JVc">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--Page Curl View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="" id="2" customClass="PageCurlViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Page Curl" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="A0H-TX-nnq">
+                                <rect key="frame" x="20" y="194" width="280" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="56"/>
+                                <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73281275877337304" green="1" blue="0.5964708885326202" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="I7V-z8-DKw"/>
+                    <connections>
+                        <segue destination="YZh-ng-B9w" kind="custom" identifier="next" customClass="BSPageCurlSegue" id="QiM-Lk-f8N"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="674" y="222"/>
+        </scene>
+        <!--Fade View Controller-->
+        <scene sceneID="RMi-Rh-EXi">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qDU-fR-Mah" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="" id="YZh-ng-B9w" customClass="FadeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k6Q-lk-0K0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="0iR-hR-Jyd">
+                                <rect key="frame" x="20" y="194" width="280" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="56"/>
+                                <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.39732749745326268" blue="0.29931409047872748" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="f25-dk-Hni"/>
+                    <connections>
+                        <segue destination="Pwl-kt-bvN" kind="custom" identifier="next" customClass="BSFadeSegue" id="s05-oT-iKv"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1116" y="222"/>
+        </scene>
+        <!--Flip View Controller-->
+        <scene sceneID="tyA-XP-bW7">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Ey-mv-iKw" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="" id="Pwl-kt-bvN" customClass="FlipViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oTM-TZ-h0I">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Flip" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="M9b-3c-guH">
+                                <rect key="frame" x="20" y="194" width="280" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="56"/>
+                                <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.44086751819999997" green="0.5113982789" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="acX-eZ-SHL"/>
+                    <connections>
+                        <segue destination="GO2-Do-jWT" kind="custom" identifier="next" customClass="BSFlipSegue" id="qNl-0v-IfS"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1538" y="222"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aFC-zR-OFC">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qic-hK-WPW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController navigationBarHidden="YES" id="2V7-IM-JVc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ZpP-34-ewT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="gBR-ut-zxb"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="228" y="222"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Rhf-bo-qBp">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0jE-8y-ftn" sceneMemberID="firstResponder"/>
+                <viewController id="xmW-Vy-LPX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Coh-Uv-udh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Awesome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="lhz-uE-iGv">
+                                <rect key="frame" x="20" y="194" width="281" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="56"/>
+                                <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97274277580000001" green="0.60865510550000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Upx-zF-M2d"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2377" y="222"/>
+        </scene>
+        <!--No Animation View Controller-->
+        <scene sceneID="oIB-D6-QxD">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8l2-ej-UEs" sceneMemberID="firstResponder"/>
+                <viewController id="GO2-Do-jWT" customClass="NoAnimationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FgD-R4-D4K">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="No Animation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="MER-EK-0aB">
+                                <rect key="frame" x="-22" y="194" width="364" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
+                                <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.9483850913850107" blue="0.45442709617464527" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="azV-ZS-Bxd"/>
+                    <connections>
+                        <segue destination="xmW-Vy-LPX" kind="custom" identifier="next" customClass="BSNoAnimationSegue" id="Pd4-hf-D9w"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1965" y="222"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="FadeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FadeViewController.h"/>
+        </class>
+        <class className="FlipViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FlipViewController.h"/>
+        </class>
+        <class className="NoAnimationViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NoAnimationViewController.h"/>
+        </class>
+        <class className="PageCurlViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PageCurlViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <nil key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

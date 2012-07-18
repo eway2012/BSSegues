@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EB2E17115B744E200CDE344 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB2E17015B744E200CDE344 /* UIKit.framework */; };
+		5EB2E17315B744E200CDE344 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB2E17215B744E200CDE344 /* Foundation.framework */; };
+		5EB2E17515B744E200CDE344 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB2E17415B744E200CDE344 /* CoreGraphics.framework */; };
+		5EB2E17B15B744E200CDE344 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2E17915B744E200CDE344 /* InfoPlist.strings */; };
+		5EB2E17D15B744E200CDE344 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2E17C15B744E200CDE344 /* main.m */; };
+		5EB2E18115B744E200CDE344 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2E18015B744E200CDE344 /* AppDelegate.m */; };
+		5EB2E18415B744E200CDE344 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2E18215B744E200CDE344 /* MainStoryboard.storyboard */; };
+		5EB2E19C15B744EF00CDE344 /* BSFadeSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2E19115B744EF00CDE344 /* BSFadeSegue.m */; };
+		5EB2E19D15B744EF00CDE344 /* BSFlipSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2E19415B744EF00CDE344 /* BSFlipSegue.m */; };
+		5EB2E19E15B744EF00CDE344 /* BSNoAnimationSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2E19715B744EF00CDE344 /* BSNoAnimationSegue.m */; };
+		5EB2E19F15B744EF00CDE344 /* BSPageCurlSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2E19A15B744EF00CDE344 /* BSPageCurlSegue.m */; };
+		5EB2E1A215B7469600CDE344 /* PageCurlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2E1A115B7469600CDE344 /* PageCurlViewController.m */; };
+		5EB2E1A615B746A700CDE344 /* FlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2E1A515B746A700CDE344 /* FlipViewController.m */; };
+		5EB2E1A915B746AE00CDE344 /* FadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2E1A815B746AE00CDE344 /* FadeViewController.m */; };
+		5EB2E1AC15B7490100CDE344 /* NoAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2E1AB15B7490100CDE344 /* NoAnimationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EB2E16C15B744E200CDE344 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB2E17015B744E200CDE344 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5EB2E17215B744E200CDE344 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5EB2E17415B744E200CDE344 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5EB2E17815B744E200CDE344 /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
+		5EB2E17A15B744E200CDE344 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5EB2E17C15B744E200CDE344 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EB2E17E15B744E200CDE344 /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
+		5EB2E17F15B744E200CDE344 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EB2E18015B744E200CDE344 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EB2E18315B744E200CDE344 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5EB2E19015B744EF00CDE344 /* BSFadeSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFadeSegue.h; sourceTree = "<group>"; };
+		5EB2E19115B744EF00CDE344 /* BSFadeSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFadeSegue.m; sourceTree = "<group>"; };
+		5EB2E19315B744EF00CDE344 /* BSFlipSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFlipSegue.h; sourceTree = "<group>"; };
+		5EB2E19415B744EF00CDE344 /* BSFlipSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFlipSegue.m; sourceTree = "<group>"; };
+		5EB2E19615B744EF00CDE344 /* BSNoAnimationSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNoAnimationSegue.h; sourceTree = "<group>"; };
+		5EB2E19715B744EF00CDE344 /* BSNoAnimationSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNoAnimationSegue.m; sourceTree = "<group>"; };
+		5EB2E19915B744EF00CDE344 /* BSPageCurlSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPageCurlSegue.h; sourceTree = "<group>"; };
+		5EB2E19A15B744EF00CDE344 /* BSPageCurlSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPageCurlSegue.m; sourceTree = "<group>"; };
+		5EB2E19B15B744EF00CDE344 /* BSSegues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSegues.h; sourceTree = "<group>"; };
+		5EB2E1A015B7469600CDE344 /* PageCurlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageCurlViewController.h; sourceTree = "<group>"; };
+		5EB2E1A115B7469600CDE344 /* PageCurlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageCurlViewController.m; sourceTree = "<group>"; };
+		5EB2E1A415B746A700CDE344 /* FlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipViewController.h; sourceTree = "<group>"; };
+		5EB2E1A515B746A700CDE344 /* FlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipViewController.m; sourceTree = "<group>"; };
+		5EB2E1A715B746AE00CDE344 /* FadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeViewController.h; sourceTree = "<group>"; };
+		5EB2E1A815B746AE00CDE344 /* FadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeViewController.m; sourceTree = "<group>"; };
+		5EB2E1AA15B7490100CDE344 /* NoAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoAnimationViewController.h; sourceTree = "<group>"; };
+		5EB2E1AB15B7490100CDE344 /* NoAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoAnimationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB2E16915B744E200CDE344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB2E17115B744E200CDE344 /* UIKit.framework in Frameworks */,
+				5EB2E17315B744E200CDE344 /* Foundation.framework in Frameworks */,
+				5EB2E17515B744E200CDE344 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EB2E16115B744E200CDE344 = {
+			isa = PBXGroup;
+			children = (
+				5EB2E17615B744E200CDE344 /* Example */,
+				5EB2E16F15B744E200CDE344 /* Frameworks */,
+				5EB2E16D15B744E200CDE344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EB2E16D15B744E200CDE344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EB2E16C15B744E200CDE344 /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB2E16F15B744E200CDE344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EB2E17015B744E200CDE344 /* UIKit.framework */,
+				5EB2E17215B744E200CDE344 /* Foundation.framework */,
+				5EB2E17415B744E200CDE344 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EB2E17615B744E200CDE344 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				5EB2E18D15B744EF00CDE344 /* BSSegues */,
+				5EB2E17F15B744E200CDE344 /* AppDelegate.h */,
+				5EB2E18015B744E200CDE344 /* AppDelegate.m */,
+				5EB2E18215B744E200CDE344 /* MainStoryboard.storyboard */,
+				5EB2E1A315B7469A00CDE344 /* Controllers */,
+				5EB2E17715B744E200CDE344 /* Supporting Files */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		5EB2E17715B744E200CDE344 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EB2E17815B744E200CDE344 /* Example-Info.plist */,
+				5EB2E17915B744E200CDE344 /* InfoPlist.strings */,
+				5EB2E17C15B744E200CDE344 /* main.m */,
+				5EB2E17E15B744E200CDE344 /* Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EB2E18D15B744EF00CDE344 /* BSSegues */ = {
+			isa = PBXGroup;
+			children = (
+				5EB2E18E15B744EF00CDE344 /* BSCrossDissolveSegue */,
+				5EB2E18F15B744EF00CDE344 /* BSFadeSegue */,
+				5EB2E19215B744EF00CDE344 /* BSFlipSegue */,
+				5EB2E19515B744EF00CDE344 /* BSNoAnimationSegue */,
+				5EB2E19815B744EF00CDE344 /* BSPageCurlSegue */,
+				5EB2E19B15B744EF00CDE344 /* BSSegues.h */,
+			);
+			name = BSSegues;
+			path = ../../BSSegues;
+			sourceTree = "<group>";
+		};
+		5EB2E18E15B744EF00CDE344 /* BSCrossDissolveSegue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BSCrossDissolveSegue;
+			sourceTree = "<group>";
+		};
+		5EB2E18F15B744EF00CDE344 /* BSFadeSegue */ = {
+			isa = PBXGroup;
+			children = (
+				5EB2E19015B744EF00CDE344 /* BSFadeSegue.h */,
+				5EB2E19115B744EF00CDE344 /* BSFadeSegue.m */,
+			);
+			path = BSFadeSegue;
+			sourceTree = "<group>";
+		};
+		5EB2E19215B744EF00CDE344 /* BSFlipSegue */ = {
+			isa = PBXGroup;
+			children = (
+				5EB2E19315B744EF00CDE344 /* BSFlipSegue.h */,
+				5EB2E19415B744EF00CDE344 /* BSFlipSegue.m */,
+			);
+			path = BSFlipSegue;
+			sourceTree = "<group>";
+		};
+		5EB2E19515B744EF00CDE344 /* BSNoAnimationSegue */ = {
+			isa = PBXGroup;
+			children = (
+				5EB2E19615B744EF00CDE344 /* BSNoAnimationSegue.h */,
+				5EB2E19715B744EF00CDE344 /* BSNoAnimationSegue.m */,
+			);
+			path = BSNoAnimationSegue;
+			sourceTree = "<group>";
+		};
+		5EB2E19815B744EF00CDE344 /* BSPageCurlSegue */ = {
+			isa = PBXGroup;
+			children = (
+				5EB2E19915B744EF00CDE344 /* BSPageCurlSegue.h */,
+				5EB2E19A15B744EF00CDE344 /* BSPageCurlSegue.m */,
+			);
+			path = BSPageCurlSegue;
+			sourceTree = "<group>";
+		};
+		5EB2E1A315B7469A00CDE344 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EB2E1A015B7469600CDE344 /* PageCurlViewController.h */,
+				5EB2E1A115B7469600CDE344 /* PageCurlViewController.m */,
+				5EB2E1A715B746AE00CDE344 /* FadeViewController.h */,
+				5EB2E1A815B746AE00CDE344 /* FadeViewController.m */,
+				5EB2E1A415B746A700CDE344 /* FlipViewController.h */,
+				5EB2E1A515B746A700CDE344 /* FlipViewController.m */,
+				5EB2E1AA15B7490100CDE344 /* NoAnimationViewController.h */,
+				5EB2E1AB15B7490100CDE344 /* NoAnimationViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB2E16B15B744E200CDE344 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB2E18A15B744E200CDE344 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				5EB2E16815B744E200CDE344 /* Sources */,
+				5EB2E16915B744E200CDE344 /* Frameworks */,
+				5EB2E16A15B744E200CDE344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = 5EB2E16C15B744E200CDE344 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EB2E16315B744E200CDE344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "iPinion ApS";
+			};
+			buildConfigurationList = 5EB2E16615B744E200CDE344 /* Build configuration list for PBXProject "Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5EB2E16115B744E200CDE344;
+			productRefGroup = 5EB2E16D15B744E200CDE344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB2E16B15B744E200CDE344 /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EB2E16A15B744E200CDE344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB2E17B15B744E200CDE344 /* InfoPlist.strings in Resources */,
+				5EB2E18415B744E200CDE344 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB2E16815B744E200CDE344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB2E17D15B744E200CDE344 /* main.m in Sources */,
+				5EB2E18115B744E200CDE344 /* AppDelegate.m in Sources */,
+				5EB2E19C15B744EF00CDE344 /* BSFadeSegue.m in Sources */,
+				5EB2E19D15B744EF00CDE344 /* BSFlipSegue.m in Sources */,
+				5EB2E19E15B744EF00CDE344 /* BSNoAnimationSegue.m in Sources */,
+				5EB2E19F15B744EF00CDE344 /* BSPageCurlSegue.m in Sources */,
+				5EB2E1A215B7469600CDE344 /* PageCurlViewController.m in Sources */,
+				5EB2E1A615B746A700CDE344 /* FlipViewController.m in Sources */,
+				5EB2E1A915B746AE00CDE344 /* FadeViewController.m in Sources */,
+				5EB2E1AC15B7490100CDE344 /* NoAnimationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EB2E17915B744E200CDE344 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB2E17A15B744E200CDE344 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5EB2E18215B744E200CDE344 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB2E18315B744E200CDE344 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EB2E18815B744E200CDE344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EB2E18915B744E200CDE344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EB2E18B15B744E200CDE344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5EB2E18C15B744E200CDE344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EB2E16615B744E200CDE344 /* Build configuration list for PBXProject "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB2E18815B744E200CDE344 /* Debug */,
+				5EB2E18915B744E200CDE344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB2E18A15B744E200CDE344 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB2E18B15B744E200CDE344 /* Debug */,
+				5EB2E18C15B744E200CDE344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EB2E16315B744E200CDE344 /* Project object */;
+}
